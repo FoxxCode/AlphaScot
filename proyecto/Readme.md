@@ -1,0 +1,10 @@
+- Crear el directorio donde estara el proyecto (Nombre del Proyecto)
+- Desempaquetar los archivos del ZIP en el directorio creado
+- Renombrar el archivo csproj con el nombre de proyecto
+- En los archivos Startup.cs y Project.cs y HomeController.cs cambiar el namespace para usarlo en el nuevo proyecto actualmente es project
+- En los archivos Package.json cambiar project por el nombre del namespace del proyecto (solo usar minusculas en los json)
+- En los archivos npm-shrinkwrap.json cambiar project por el nombre del namespace del proyecto (solo usar minusculas en los json)
+- En los archivos _ViewImports.cshtml cambiar project por el nombre del namespace del proyecto
+- Ejecutar comando npm install
+- Abrir el csproj con el Visual Studio Net 
+- Ejecutar
